@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="bundle.js" async></script>
+</head>
+<body>
+	<div class="graphics text-center" data-controller="printer">
+		<p>Inkjet Printer</p>
+		<select class="printer" data-printer-target="bardraw" data-action="change->printer#draw">
+			<option value="climate_change">climate_change</option>
+			<option value="energy_use">energy_use</option>
+		</select>
+		<div class="bars">
+			<div class="bars-item">
+				<svg data-printer-target="production_svg" width="30" height="150">
+					<rect data-printer-target="production" width="30" height="150" style="fill:rgb(255,0,0);stroke-width:1;stroke:rgb(0,0,0)" />
+				</svg>	
+				<label>P</label>
+			</div>
+			<div class="bars-item">
+				<svg data-printer-target="distribution_svg" width="30" height="150">
+					<rect data-printer-target="distribution" width="30" height="150" style="fill:rgb(255,154,0);stroke-width:1;stroke:rgb(0,0,0)" />
+				</svg>	
+				<label>D</label>
+			</div>
+			<div class="bars-item">
+				<svg data-printer-target="use_svg" width="30" height="150">
+					<rect data-printer-target="use" width="30" height="150" style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0)" />
+				</svg>	
+				<label>U</label>
+			</div>
+			<div class="bars-item">
+				<svg data-printer-target="end_of_life_svg" width="30" height="150">
+					<rect data-printer-target="end_of_life" width="30" height="150" style="fill:rgb(0,251,255);stroke-width:1;stroke:rgb(0,0,0)" />
+				</svg>	
+				<label>E</label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

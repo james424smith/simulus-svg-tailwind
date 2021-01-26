@@ -1,0 +1,37 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+.graphics {
+	max-width: 500px;
+	padding: 100px;
+	background: #1e1e1e;
+}
+.bars {
+	border: 1px solid #eee;
+	padding: 40px;
+	background: #423d3d;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.printer {
+	margin-bottom: 50px;
+	height: 40px;
+    width: 200px;
+}
+.bars-item {
+	display: inline-block;
+	padding: 0 15px;
+}
+.bars-item label {
+	color: #FFF;
+}
+p {
+	font-size: 22px;
+	padding-bottom: 10px;
+	color: #FFF;
+}
+svg {
+	margin-bottom: 15px;
+}

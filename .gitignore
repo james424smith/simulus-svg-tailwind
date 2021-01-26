@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+node_modules
+public/bundle.js
+=======
 # Logs
 logs
 *.log
@@ -102,3 +106,4 @@ dist
 
 # TernJS port file
 .tern-port
+>>>>>>> c55362bdf53dfb507c35b1f2150db755f6946c06
