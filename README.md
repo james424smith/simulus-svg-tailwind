@@ -1,0 +1,1 @@
+# simulus-svg-tailwind
